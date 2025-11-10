@@ -131,3 +131,30 @@
 2025-11-10 18:47:00,485 - Knowledge - INFO - ⚡ Total Redis path: 2.56s (vs ~300s from disk)
 2025-11-10 18:47:00,697 - Knowledge - INFO - Saving knowledge to Redis...
 2025-11-10 18:47:00,906 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-11-10 20:04:40,044 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-11-10 20:04:40,354 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2025-11-10 20:04:40,512 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-11-10 20:04:40,711 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=25, max_concurrent_llm_calls=50
+2025-11-10 20:04:41,805 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2025-11-10 20:04:42,011 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2025-11-10 20:04:42,196 - Knowledge - INFO - load persisted knowledge: begin
+2025-11-10 20:04:42,382 - Knowledge - INFO - Persisted knowledge files in /app/data/T0031/22440/b6828bp/Weekly-Report-Platform-22440/.knowledge have been renamed to use .json
+2025-11-10 20:04:42,538 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Weekly-Report-Platform-22440.git:kavia-main
+2025-11-10 20:04:42,702 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f4421e3ac90>
+2025-11-10 20:04:42,924 - Knowledge - INFO - process ingested knowledge for /app/data/T0031/22440/b6828bp/Weekly-Report-Platform-22440/README.md
+2025-11-10 20:04:43,131 - Knowledge - INFO - Loaded 1 files from persisted knowledge
+2025-11-10 20:04:43,279 - Knowledge - INFO - load persisted knowledge: end
+2025-11-10 20:04:43,442 - Knowledge - INFO - Redis support added with prefix knowledge:b6828bp:
+2025-11-10 20:04:43,629 - Knowledge - INFO - Starting knowledge initialization for ID: I68i29-b6828bp
+2025-11-10 20:04:43,784 - Knowledge - INFO - 🔍 Checking Redis for build_id: b6828bp
+2025-11-10 20:04:43,949 - Knowledge - INFO - 🔍 Full session ID: I68i29-b6828bp
+2025-11-10 20:04:44,140 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b6828bp:
+2025-11-10 20:04:44,313 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2025-11-10 20:04:44,473 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2025-11-10 20:04:44,651 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b6828bp
+2025-11-10 20:04:46,444 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2025-11-10 20:04:46,609 - Knowledge - INFO - ✅ Successfully loaded from Redis: 1 files
+2025-11-10 20:04:46,786 - Knowledge - INFO - ✅ Redis load complete: 1 files in 2.47s
+2025-11-10 20:04:46,949 - Knowledge - INFO - ⚡ Total Redis path: 2.47s (vs ~300s from disk)
+2025-11-10 20:04:47,131 - Knowledge - INFO - Saving knowledge to Redis...
+2025-11-10 20:04:47,300 - Knowledge - INFO - Knowledge saved to Redis successfully
